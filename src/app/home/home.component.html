@@ -1,1 +1,81 @@
-<p>home works!</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=DynaPuff&family=Red+Hat+Display&display=swap" rel="stylesheet">
+  <title>Camp Half-Pod</title>
+</head>
+</html>
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="CHP Logo"
+    src="../assets/images/transparent_logo.png"
+  />
+  <span>Hi, campers!</span>
+  <div class="spacer"></div>
+  <!--Hyper links to other pages -->
+  <div>
+    <ul class="navbar" style="display: inline-block">
+      <li><a routerLink="" routerLinkActive="active">Home</a> </li>
+      <li><a routerLink="/about-us" routerLinkActive="active">About Us</a></li>
+      <li><a routerLink="/merch" routerLinkActive="active">Merch</a></li>
+      <li><a routerLink="/quizzes" routerLinkActive="active">Quizzes</a></li>
+      <li><a routerLink="/memes" routerLinkActive="active">Memes</a></li>
+    </ul>
+  </div>
+  <!-- Social media hyperlinks -->
+  <a aria-label="CHP Twitter" target="_blank" rel="noopener" href="https://twitter.com/camphalfpod" title="Twitter">
+    <svg id="twitter-logo" height="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+      <rect width="400" height="400" fill="none"/>
+      <path d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23" fill="#fff"/>
+    </svg>
+  </a>
+  <a aria-label="CHP on Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/camphalfpod/?hl=en" title="Instagram">
+    <svg id="instagram-logo" height="24" width="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff">
+      <path d="M0 0h24v24H0V0z" fill="none"/>
+      <path d="M16.98 0a6.9 6.9 0 0 1 5.08 1.98A6.94 6.94 0 0 1 24 7.02v9.96c0 2.08-.68 3.87-1.98 5.13A7.14 7.14 0 0 1 16.94 24H7.06a7.06 7.06 0 0 1-5.03-1.89A6.96 6.96 0 0 1 0 16.94V7.02C0 2.8 2.8 0 7.02 0h9.96zm.05 2.23H7.06c-1.45 0-2.7.43-3.53 1.25a4.82 4.82 0 0 0-1.3 3.54v9.92c0 1.5.43 2.7 1.3 3.58a5 5 0 0 0 3.53 1.25h9.88a5 5 0 0 0 3.53-1.25 4.73 4.73 0 0 0 1.4-3.54V7.02a5 5 0 0 0-1.3-3.49 4.82 4.82 0 0 0-3.54-1.3zM12 5.76c3.39 0 6.2 2.8 6.2 6.2a6.2 6.2 0 0 1-12.4 0 6.2 6.2 0 0 1 6.2-6.2zm0 2.22a3.99 3.99 0 0 0-3.97 3.97A3.99 3.99 0 0 0 12 15.92a3.99 3.99 0 0 0 3.97-3.97A3.99 3.99 0 0 0 12 7.98zm6.44-3.77a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z" fill="#fff"/>
+    </svg>
+  </a>
+  <a aria-label="CHP on Email" target="_blank" rel="noopener" href="mailto: camphalfpod@gmail.com" title="Email">
+    <svg id="email-logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline> </svg></a>
+</div>
+
+<div class="content" role="main">
+
+  <!-- Title -->
+  <div class="title">
+    <h1>Welcome to Camp Half-Pod</h1>
+    <br>
+    <h3> Just two demigods who love Percy Jackson.
+      Join Erin and Manasa as we dive into the canon of the Percy Jackson universe, a few chapters at a time.</h3>
+  </div>
+  <br>
+  <!-- Body -->
+  <!--RSS player-->
+  <div class="justCast-player">
+    <iframe src='https://widget.justcast.com/widget?rss=https://anchor.fm/s/40177948/podcast/rss&primaryBackgroundColor=000000&primaryButtonColor=f7f8f9&primaryTextColor=f7f8f9&progressBarFilledColor=f7f8f9&progressBarBackgroundColor=8A8175&playlistBackgroundColor=30343c&playlistTextColor=f7f8f9&chapterBackgroundColor=30343c&chapterTextColor=f7f8f9' seamless='true' style="display: block; border:none;">
+    </iframe>
+  </div>
+
+  <!--Listening Options-->
+  <div class ="listening-options">
+    <h3> Listen now on : </h3>
+    <a aria-label="Spotify" target="_blank" rel="noopener" href="https://open.spotify.com/show/5xaiCJJHaPZmeQTMmTseIL" title="Spotify">
+      <img src="../assets/icon/spotify-icon.svg" alt="Spotify" width="80" height="50">
+    </a>
+
+    <a aria-label="Apple" target="_blank" rel="noopener" href="https://podcasts.apple.com/us/podcast/camp-half-pod-a-percy-jackson-podcast/id1546003869" title="Apple">
+      <img src="../assets/icon/apple_pod-icon.png" alt ="Apple_pod" width="50" height="50">
+    </a>
+
+    <a aria-label="Google" target="_blank" rel="noopener" href="https://podcasts.apple.com/us/podcast/camp-half-pod-a-percy-jackson-podcast/id1546003869" title="Google">
+      <img src="../assets/icon/google-podcasts-icon.svg" alt="Google_pod" height="50" width="50">
+    </a>
+
+    <a aria-label="Anchor" target="_blank" rel="noopener" href="https://anchor.fm/camp-half-pod" title="Anchor">
+      <img src="../assets/icon/anchor.png" alt="Anchor_pod" height="50" width="50">
+    </a>
+  </div>
+</div>
