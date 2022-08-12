@@ -91,6 +91,23 @@ ul.navbar > li {
   padding: 0 16px;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+.content h1{
+  font-family: 'Cormorant SC', serif;
+  font-size: 60px;
+}
+.content h2{
+  font-family: 'Merienda', cursive;
+  font-size: 30px;
+}
+.content h3 {
+  font-family: 'Aleo', serif;
+  font-size: 20px;
+}
+.content img {
+  margin-left: 2%;
+  float:left;
 }
 a:link .AboutUs_erin {
   color: black;
