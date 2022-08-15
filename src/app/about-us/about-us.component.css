@@ -100,15 +100,20 @@ ul.navbar > li {
 .content h2{
   font-family: 'Merienda', cursive;
   font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .content h3 {
   font-family: 'Aleo', serif;
   font-size: 20px;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
 }
-.content img {
-  margin-left: 2%;
-  float:left;
+a.content {
+  align-content: center;
 }
+
 a:link .AboutUs_erin {
   color: black;
 }
@@ -121,7 +126,8 @@ a.ErinBook:link{
 a.ErinBook:visited{
   color: darkslateblue;
 }
-
-
+img {
+  border-radius: 25%;
+}
 
 
