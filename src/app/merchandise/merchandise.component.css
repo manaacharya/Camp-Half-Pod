@@ -106,8 +106,15 @@ a.Zazzle:link{
 a.Zazzle:visited {
   color: darkblue;
 }
-.gallery img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+.gallery {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
+.gallery img {
+  display: inline-block;
+  width: 30%;
+}
+
+
+
